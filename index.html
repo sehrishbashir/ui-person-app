@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ````````````````           parallex glass          ````````````````` -->
+      <!-- <section></section> -->
+
+  <!-- ````````````````           rainbow view            ````````````````` -->
+
+  <div class="ground"></div>
+      <div class="sky">
+        <div class="cloud variant-1"></div>
+        <div class="cloud variant-2"></div>
+        <div class="cloud variant-3"></div>
+        <div class="cloud variant-4"></div>
+        <div class="cloud variant-5"></div>
+      </div>
+      
+      <div class="rainbow-preloader">
+        <div class="rainbow-stripe"></div>
+        <div class="rainbow-stripe"></div>
+        <div class="rainbow-stripe"></div>
+        <div class="rainbow-stripe"></div>
+        <div class="rainbow-stripe"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+      </div>
+
+    <!-- ```````````````           button              ````````````````````` -->
+    <div class="treat-wrapper">
+      <button class="treat-button">Persons!</button>
+    </div>
+
+    <!-- ```````````````           cards               ``````````````````` -->
+    <div id="app" class="container">
+      <card data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=">
+        <h1 slot="header"><input type="text" placeholder="search"></h1>
+        <h1 slot="header"><input type="text" placeholder="search"></h1>
+        <h1 slot="header"><input type="text" placeholder="search"></h1>
+        <h1 slot="header"><button>write</button></h1>
+        <h1 slot="header"><button>delete</button></h1>
+      </card>
+
+      <card data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+        <h1 slot="header"><input type="text" placeholder="search"></h1>
+        <h1 slot="header"><input type="text" placeholder="search"></h1>
+        <h1 slot="header"><input type="text" placeholder="search"></h1>
+        <h1 slot="header"><button>write</button></h1>
+        <h1 slot="header"><button>delete</button></h1>
+      </card>
+    </div>
+
+<script src="https://unpkg.com/vue@2.2.1"></script>
+<script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
